@@ -1,0 +1,23 @@
+{
+  "name": "vue-bootstrap-docs",
+  "version": "0.0.1",
+  "description": "Ice coffee",
+  "main": "index.js",
+  "authors": {
+    "name": "Kevin Kline Gargar",
+    "email": "kevin@awardforce.com"
+  },
+  "repository": "vue-bootstrap-docs/Vue-bootstrap documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "vue-bootstrap": "git+ssh://git@github.com/tectonic/vue-bootstrap.git#1.3.68"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
