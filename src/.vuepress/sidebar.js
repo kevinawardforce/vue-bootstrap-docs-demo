@@ -4,17 +4,28 @@ module.exports = [
         title: 'Components',
         collapsable: false,
         children: prefix('components', [
-            'panel'
+            'datepicker',
+            'dropdown',
+            'modal',
+            'multicheckbox',
+            'multiselect',
+            'panel',
+            'popover',
+            'searchfield',
+            'selectfield',
+            'tabs',
+            'taginput',
+            'typeahead'
         ]),
     },
     {
         title: 'Mixins',
         collapsable: false,
-        // children: prefix('mixins', [
-        //     'clickoutside',
-        //     'disableform',
-        //     'formaturl'
-        // ]),
+        children: prefix('mixins', [
+            'clickoutside',
+            'disableform',
+            'formaturl'
+        ]),
     }
 ];
 
